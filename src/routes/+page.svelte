@@ -1,4 +1,4 @@
-<main class="flex-col items-center p-20">
+<main class="flex-col items-center p-30">
     <section id="home">
         <h1>Louis Abery.</h1>
         <p>Computer Science and Music Production.</p>

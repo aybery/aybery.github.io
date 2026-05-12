@@ -1,1 +1,18 @@
 @import 'tailwindcss';
+
+p {
+    @apply text-lg;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+h1 {
+    @apply text-4xl font-bold;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    @apply text-3xl font-bold;
+    margin-bottom: 1rem;
+}
+

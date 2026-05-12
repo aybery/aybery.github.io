@@ -18,5 +18,5 @@
 {@render children()}
 
 <footer class="flex items-center justify-center p-4">
-    <p>&copy; 2025 Louis Abery</p>
+    <p>&copy; 2026 Louis Abery</p>
 </footer>
