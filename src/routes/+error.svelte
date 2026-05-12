@@ -3,6 +3,8 @@
     import { resolve } from '$app/paths';
 </script>
 
-<h1>Oops! {page.status}</h1>
-<p>{page.error?.message || 'Page not found'}</p>
-<a href={resolve('/')}>Go Home</a>
+<div class="flex flex-col items-center justify-center p-4">   
+    <h1>Error <span class="text-red-600">{page.status}</span></h1>
+    <p class="font-bold">{page.error?.message || 'Page not found'}</p>
+    <a href={resolve('/')} class=" font-extrabold text-blue-500 hover:underline">← Go Home</a>
+</div>
